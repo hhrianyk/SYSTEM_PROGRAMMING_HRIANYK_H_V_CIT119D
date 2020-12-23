@@ -2,7 +2,7 @@
 <head>
         <p align="center">
         <a href="http://blogs.kpi.kharkov.ua/v2/asm/laboratornye-raboty-sp/" target="_blank">
-            <img src="Лабораторные работы СП" height="100px">
+            < # "Лабораторные работы СП" >
         </a>
     <p align="center">
         <a href="http://blogs.kpi.kharkov.ua/v2/asm/laboratornye-raboty-sp/" target="_blank">
