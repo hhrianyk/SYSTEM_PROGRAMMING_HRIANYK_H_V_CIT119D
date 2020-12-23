@@ -1,0 +1,22 @@
+#define IDR_MENU1 10000
+#define IDM_File 10001
+#define IDM_Exit 10002
+#define IDM_Help 10003
+#define IDM_About 10004
+
+#include "C:/masm64/include64/Resource.h"
+10  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "icon.ico"
+20  RCDATA "DSC00388-2.jpg"
+
+100	MENUEX MOVEABLE IMPURE LOADONCALL DISCARDABLE
+BEGIN
+  POPUP "File"
+  BEGIN
+    MENUITEM "Exit",IDM_Exit
+  END
+  POPUP "Help"
+  BEGIN
+    MENUITEM "About",IDM_About
+  END
+END
+

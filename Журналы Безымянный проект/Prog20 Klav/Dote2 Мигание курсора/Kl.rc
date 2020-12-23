@@ -1,0 +1,21 @@
+#define IDM_INC 1001
+#define IDM_RESET 1002
+#define IDM_CHANGE 1003
+#define IDM_SHOW 1004
+#define IDM_ABOUT 1005
+#define IDM_EXIT 1006
+
+FirstMenu MENU
+{
+ POPUP "Задачи"
+        {
+         MENUITEM "Уменьшить частоту мигания",IDM_INC
+	 MENUITEM "Сбросить частоту мигания",IDM_RESET
+         MENUITEM SEPARATOR
+	 MENUITEM "Изменить вид курсора",IDM_CHANGE
+	 MENUITEM "Спрятать\Показать курсор",IDM_SHOW
+	 MENUITEM SEPARATOR
+         MENUITEM "Выход",IDM_EXIT
+        }
+ MENUITEM "Об авторе", IDM_ABOUT
+}

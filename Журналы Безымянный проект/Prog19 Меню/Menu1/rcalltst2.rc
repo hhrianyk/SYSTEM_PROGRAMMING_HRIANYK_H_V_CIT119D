@@ -1,0 +1,26 @@
+#define IDR_MENU1 10000
+#define IDM_Prog 10001
+#define IDM_Help 10004
+#define IDM_Functions 10002
+#define IDM_Exit 10003
+#define IDM_About 10005
+
+#include "C:/masm64/include64/Resource.h"
+
+10 ICON MOVEABLE PURE LOADONCALL DISCARDABLE "icon.ico"
+
+IDR_MENU1 MENU
+BEGIN
+  POPUP "Программа"
+  BEGIN
+    MENUITEM "Функции",IDM_Functions
+    MENUITEM "Exit",IDM_Exit
+  END
+  POPUP "Help"
+  BEGIN
+    MENUITEM "About",IDM_About
+  END
+END
+
+
+
