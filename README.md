@@ -1,8 +1,10 @@
-#                    SYSTEM_PROGRAMMING_HRIANYK_H_V_CIT119D
+
 <head>
         <p align="center">
-        <a href="http://blogs.kpi.kharkov.ua/v2/asm/laboratornye-raboty-sp/" target="_blank">
-            <img src="https://github.com/hhrianyk/SYSTEM_PROGRAMMING_HRIANYK_H_V_CIT119D/blob/main/Доп.%20матреріал/favicon.ico" height="100px">
+                #SYSTEM_PROGRAMMING
+        <p align="center">
+        <a href="http://blogs.kpi.kharkov.ua/v2/asm/" target="_blank">
+            <img src="http://blogs.kpi.kharkov.ua/v2/asm/wp-content/uploads/sites/20/2016/02/Fon33.jpg" height="100px">
         </a>
         <p align="center">
         <a href="http://blogs.kpi.kharkov.ua/v2/asm/laboratornye-raboty-sp/" target="_blank">
