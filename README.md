@@ -1,10 +1,8 @@
-
+#SYSTEM_PROGRAMMING
 <head>
         <p align="center">
-                #SYSTEM_PROGRAMMING
-        <p align="center">
         <a href="http://blogs.kpi.kharkov.ua/v2/asm/" target="_blank">
-            <img src="http://blogs.kpi.kharkov.ua/v2/asm/wp-content/uploads/sites/20/2016/02/Fon33.jpg" height="100px">
+            <img src="http://blogs.kpi.kharkov.ua/v2/asm/wp-content/uploads/sites/20/2016/02/Fon33.jpg" height="200px">
         </a>
         <p align="center">
         <a href="http://blogs.kpi.kharkov.ua/v2/asm/laboratornye-raboty-sp/" target="_blank">
