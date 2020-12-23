@@ -1,0 +1,17 @@
+#define IDD_DLG1 1000
+#define IDC_GRP1 1001
+#define IDC_STC1 1002
+#define IDC_STC2 1003
+
+#include "C:/masm32/include/RESOURCE.H"
+
+IDD_DLG1 DIALOGEX 84,39,324,99
+CAPTION "Исследование диалогового окна"
+FONT 8,"MS Sans Serif",0,0,0
+STYLE WS_VISIBLE|WS_OVERLAPPEDWINDOW
+BEGIN
+  CONTROL "                                     Анимация окна",IDC_GRP1,"Button",WS_CHILDWINDOW|WS_VISIBLE|BS_GROUPBOX,9,10,309,84
+  CONTROL "Появление окна:   invoke AnimateWindow,hWin,500,AW_ACTIVATE or AW_BLEND",IDC_STC1,"Static",WS_CHILDWINDOW|WS_VISIBLE,18,27,273,12
+  CONTROL "Исчезновение окна:   invoke AnimateWindow,hWin,500,AW_HIDE or AW_BLEND",IDC_STC2,"Static",WS_CHILDWINDOW|WS_VISIBLE,18,66,291,9
+END
+

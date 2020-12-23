@@ -1,0 +1,45 @@
+#define IDM_INFO 1
+#define IDM_USL 3
+#define IDM_EXIT 2
+#define IDM_M1 11
+#define IDM_M2 12
+#define IDM_M3 13
+#define IDM_V1 21
+#define IDM_V2 22
+#define IDM_V3 23
+#define IDM_V4 24
+#define IDM_V5 25
+#define IDM_V6 26
+#define IDM_V7 27
+#define IDM_V8 28
+#define IDM_V9 29
+#define IDM_V0 20
+#define IDI_ICON 1001
+
+IDI_ICON ICON DISCARDABLE MOVEABLE LOADONCALL "Spiral2.ico"
+FirstMenu MENU {
+	POPUP "Программа"{
+		MENUITEM "Условие...", IDM_USL
+		MENUITEM "Об авторе...", IDM_INFO
+		MENUITEM SEPARATOR
+		MENUITEM "Выход", IDM_EXIT
+	}
+	POPUP "Масштаб"{
+		MENUITEM "1:2", IDM_M1
+		MENUITEM "1:1", IDM_M2
+		MENUITEM "2:1", IDM_M3
+	}
+	POPUP "Количество витков"{
+		MENUITEM "1", IDM_V1
+		MENUITEM "2", IDM_V2
+		MENUITEM "3", IDM_V3
+		MENUITEM "4", IDM_V4
+		MENUITEM "5", IDM_V5
+		MENUITEM "6", IDM_V6
+		MENUITEM "7", IDM_V7
+		MENUITEM "8", IDM_V8
+		MENUITEM "9", IDM_V9
+		MENUITEM "10", IDM_V0
+	}
+}
+		
