@@ -1,0 +1,53 @@
+  fld a    ; a
+fmul t     ; m*alpha
+fcos       ;cos(a*t)
+fld b      ; b
+Fmul t     ; b*t
+fcos       ; cos (b*t)
+
+mov r10,0 
+t3:
+inc r10
+fld st(0)
+ cmp r10,j 
+ JLE t3
+mov r10,0
+t4: 
+inc r10
+FMUL       ; sin^2(m*t)
+cmp r10,j 
+JLE t4
+FSUB       ; cos(a*t)-cos^3(m*t)
+FMUL divK  ; розмір* cos(a*t)-cos^3(m*t)
+	fild xdiv2      
+	fadd 
+ 
+fistp dword ptr xr 
+ 
+
+
+ fld c   ; a
+fmul t     ; m*alpha
+fsin       ;cos(a*t)
+fld d      ; b
+Fmul t     ; b*t
+fsin       ; cos (b*t)
+
+mov r10,0
+ 
+s3:
+inc r10
+fld st(0)
+ cmp r10,k 
+ JLE s3
+mov r10,0
+s4: 
+inc r10
+FMUL       ; sin^2(m*t)
+cmp r10,k 
+JLE s4
+FSUB       ; sin(a*t)-sin^m(m*t)
+FMUL divK  ; розмір* sin(a*t)-sin^m(m*t)
+fstp tmp
+fild ydiv2      
+fsub tmp  
